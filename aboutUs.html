@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h3 class="logo">sprinkles bakery</h3>
+        <div class="links">
+            <p id="logo" class="hovering">home</p>
+            <p id="shop" class="hovering">products</p>
+            <p id="aboutUs" class="hovering">about us</p>
+        </div>
+        <div class="icons">
+            <img class="navi" src="images/search (1).png" alt="">
+            <img class="navi" src="images/bag.png" alt="">
+            <img class="navi" id="logIn" src="images/user (2).png" alt="">
+        </div>
+    </div>
+
+    <div class="abtUs">
+        <h1 class="abtTxt">about us</h1>
+        <p class="abtText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur similique, totam
+            recusandae,
+            repudiandae aut nostrum optio consectetur fugit praesentium quaerat tenetur voluptatem incidunt quod
+            voluptatibus id ad illum mollitia deleniti! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Distinctio perspiciatis tenetur maxime. Sint pariatur quae sed, laudantium deleniti quidem, alias
+            accusantium natus non, nulla rerum earum laboriosam repellat nesciunt fuga?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quod iusto, sint provident doloremque aut
+            assumenda dicta amet aliquid praesentium reprehenderit autem perferendis officiis voluptates ea excepturi
+            non atque fugiat.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus sit nam sint id error ad in incidunt,
+            possimus delectus non, sunt explicabo, exercitationem consectetur mollitia dolorem odio vel vitae
+            reprehenderit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ipsum quaerat voluptatum. Quas
+            in vel nisi quaerat nostrum perspiciatis possimus eum quo amet enim eius sint, ad itaque molestias
+            velit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati vel culpa praesentium.
+            Deleniti, reprehenderit ducimus iusto dolores debitis odio placeat odit repellendus eligendi, voluptatibus
+            nobis commodi in suscipit enim.</p>
+    </div>
+    
+    <script>
+
+        const home = document.getElementById('logo');
+
+        home.addEventListener('click', function () {
+            window.location.href = 'index.html';
+        })
+
+        const shop = document.getElementById('shop');
+
+        shop.addEventListener('click', function () {
+            window.location.href = 'products.html';
+        })
+
+        const aboutUs = document.getElementById('aboutUs');
+
+        aboutUs.addEventListener('click', function () {
+            window.location.href = 'aboutUs.html';
+        })
+
+        const logIn = document.getElementById('logIn');
+
+        logIn.addEventListener('click', function () {
+            window.location.href = 'login.html'
+        })
+
+    </script>
+</body>
+
+</html>
