@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprinkles Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="navbar">
+        <h3 class="logo">sprinkles bakery</h3>
+        <div class="links">
+            <p id="logo" class="hovering">home</p>
+            <p id="shop" class="hovering">products</p>
+            <p id="aboutUs" class="hovering">about us</p>
+        </div>
+        <div class="icons">
+            <img class="navi" src="images/search (1).png" alt="">
+            <img class="navi" src="images/bag.png" alt="">
+            <img class="navi" id="logIn" src="images/user (2).png" alt="">
+        </div>
+    </div>
+
+    <div class="landing">
+        <img src="images/torte.png" alt="" class="cake">
+        <p class="text1">Delicious cupcakes, dreamy cakes, <br>and sweet treats made just for you!</p>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="texti">
+            <h3 class="text2">HANDCRAFTED SWEETS</h3>
+            <p class="text3">Delicate flavors. Beautiful frosting. Pure joy.</p>
+        </div>
+        <div class="divi">
+            <img src="images/GTC_LavaFudge_FT.webp" alt="">
+            <img src="images/gluteni.webp" alt="">
+            <img src="images/limoni.webp" alt="">
+            <img src="images/GTC_ChocolateCoconut_FT_ca977cef-f005-46b8-a9ec-dbc3a9b2e71c.webp" alt="">
+            <img src="images/GTC_PumpkinCheesecake_FT.webp" alt="">
+            <img src="images/GTC_ToffeeCrunch_FT.webp" alt="">
+        </div>
+        <div class="child">
+            <p class="text5">Our cupcakes are made daily with love, real ingredients,
+                and a whole lotta ✨vibes✨.</p>
+            <div class="butoni">
+                <button class="btn">shop cupcakes</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="favorites">
+        <h1 class="favs">everyday favorites</h1>
+        <div class="tortet">
+            <div class="cakeText">
+                <img src="images/GTC_ChocolateSquared_FT_3.webp" class="favCakes" alt="">
+                <p>Choco Bliss Cupcake</p>
+                <p>5€</p>
+                <button class="btn">purchase</button>
+            </div>
+            <div class="cakeText">
+                <img src="images/GTC_RedVelvet_FT_1.webp" class="favCakes" alt="">
+                <p>Red Velvet Cupcake</p>
+                <p>5€</p>
+                <button class="btn">purchase</button>
+            </div>
+            <div class="cakeText">
+                <img src="images/GTC_VanillaBirthday_FT_1.webp" class="favCakes" alt="">
+                <p>Confetti Pop Cupcake</p>
+                <p>5€</p>
+                <button class="btn">purchase</button>
+            </div>
+            <div class="cakeText">
+                <img src="images/gtc_milk_chokolate.webp" class="favCakes" alt="">
+                <p>Caramel Swirl Cupcake</p>
+                <p>5€</p>
+                <button class="btn">purchase</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="promo">
+        <div class="box1">
+            <h1 class="promotext">LIMITED TIME PROMO</h1>
+            <p class="promotext1">🎀 Sweet Deal of the Week! 🍰✨ Enjoy 20–25% off all our cupcakes, from Red Velvet and
+                Chocolate Fudge to
+                Vanilla Birthday. Perfect for birthdays, treats, or just because! 💖 Hurry, offer lasts only a few
+                days—grab your favorite flavors before they’re gone!</p>
+        </div>
+        <div class="box2">
+            <img src="images/Primary_Nav_Build_Your_Own_Box_2_7x5_compressed.webp" alt="">
+        </div>
+    </div>
+    <!-- <div class="icons">
+        <h3 class="logo">sprinkles bakery</h3>
+    </div>
+    <div class="footer">
+        <p>about us</p>
+        <p>our locations</p>
+        <p>community</p>
+        <p>employment</p>
+        <p>contact us</p>
+        <p>blog</p>
+    </div>
+    <hr>
+    <p class="pp">© 2025 sprinkles bakery. All rights reserved.</p>
+    -->
+    <footer class="site-footer">
+        <div class="icons">
+            <h3 class="logo1">sprinkles bakery</h3>
+        </div>
+
+        <div class="footer-links">
+            <p>about us</p>
+            <p>our locations</p>
+            <p>community</p>
+            <p>employment</p>
+            <p>contact us</p>
+            <p>blog</p>
+        </div>
+
+        <hr>
+
+        <p class="pp">© 2025 sprinkles bakery. All rights reserved.</p>
+    </footer>
+
+    <script>
+
+        const home = document.getElementById('logo');
+
+        home.addEventListener('click', function () {
+            window.location.href = 'index.html';
+        })
+
+        const shop = document.getElementById('shop');
+
+        shop.addEventListener('click', function () {
+            window.location.href = 'products.html';
+        })
+
+        const aboutUs = document.getElementById('aboutUs');
+
+        aboutUs.addEventListener('click', function () {
+            window.location.href = 'aboutUs.html';
+        })
+
+        const logIn = document.getElementById('logIn');
+
+        logIn.addEventListener('click', function () {
+            window.location.href = 'login.html'
+        })
+
+    </script>
+</body>
+
+</html>
